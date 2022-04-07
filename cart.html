@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="products_style.css">
+    <link rel="stylesheet" href="cart_style.css">
+    <script src="product_scripts.js" async></script>
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+        OnGro
+        </div>
+        <div class="other">
+            <ul>
+                <li>About us</li>
+                <li>Contact us</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <i class="material-icons">shopping_cart</i>
+        <span class="count">0</span>
+        <span class="material-icons">account_circle</span>
+        <button class="signout" onclick="signout()">Signout</button>
+    </div>
+    <div class="products-contnr">
+        <div class="product-hdr">
+            <h5 class="prdct-ttl">Product</h5>
+            <h5 class="price">Price</h5>
+            <h5 class="count-prdct">Count</h5>
+            <h5 class="totalofprdct">Total</h5>
+        </div>
+        <div class="productslst"></div>
+    </div>
+</body>
+</html>
