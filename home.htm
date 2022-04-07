@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online grocery</title>
+    <link rel="stylesheet" href="home_style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <script src="home_script.js"></script>
+</head>
+<body background="shopping-bag.jpg">
+    <div class="header">
+        <div class="webname">
+            OnGro
+        </div>
+        <nav>
+            <ul class="navlnks">
+                <li>About us</li>
+                <li>Contact us</li>
+                <li>Help</li>
+            </ul>
+        </nav>
+        <div class="authside">
+            <button class="login_but"  onclick="openlogin()">Login</button>
+            <button class="signup_but" onclick="opensignup()">Sign up</button>
+        </div>
+    </div>
+    <div class="info">
+        <h1 style="font-size: 60px;">Hi, Welcome to OnGro</h1>
+        <p style="font-size: 18px;" class="para">OnGro is an online grocery website where you can find best quality Grocery <br> products.
+           We have best offers and discount for all the products.
+           And at last <br> we provide other service which other can't afford, we provide "Free delivery" <br> for
+           all type of orders even it can be a single item.
+        </p>
+    </div>
+    <img src="images/grocery.png" alt="grocery" class="grocery">
+    <form class="login" id="login" action="products.html">
+           <span class="material-icons" onclick="closelog()">highlight_off</span>
+           <h3>Login</h3>
+           <input type="email" name="" id="" class="log_txt" placeholder="Email">
+           <input type="password" name="" id="" class="log_txt" placeholder="Password">
+           <input type="submit"  value="SUBMIT">
+           <span class="newusr" style="cursor: pointer;">New user? Signup</span> 
+    </form>
+    <form class="signup" id="signup" action="products.html">
+            <span class="material-icons" onclick="closelog()">highlight_off</span>
+            <h3>Signup</h3>
+            <input type="text" name="" id="" class="log_txt" placeholder="User name">
+            <input type="email" name="" id="" class="log_txt" placeholder="Email">
+            <input type="password" name="" id="" class="log_txt" placeholder="Password">
+            <input type="submit" value="SUBMIT">
+            <span class="newusr" style="cursor: pointer;">Already an user? Login</span> 
+    </form>
+</body>
+</html>

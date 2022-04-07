@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="products_style.css">
+    <script src="product_scripts.js" async></script>
+    <title>products</title>
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+        OnGro
+        </div>
+        <div class="other">
+            <ul>
+                <li>About us</li>
+                <li>Contact us</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <i class="material-icons" onclick="opencart()">shopping_cart</i>
+        <span class="count">0</span>
+        <span class="material-icons">account_circle</span>
+        <span class="material-icons" onclick="prdctlst()">view_list</span>
+        <button class="signout" onclick="signout()">Signout</button>
+    </div>
+    <div class="main">
+        <div class="btn-box">
+            <button class="btn" id="btn1" onclick="packtfds()">Packet Foods</button>
+            <button class="btn" id="btn2" onclick="vegtbls()">Vegetables</button>
+            <button class="btn" id="btn3" onclick="fruts()">Fruits</button>
+        </div>
+        <div id="content1" class="content">
+            <h1>Packet foods</h1>
+            <div class="lstview">
+                <img src="images/sreegolduraddal.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Sreegold Urad Dal</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.40 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+            <div class="lstview">
+                <img src="images/aachichickenmasala.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Aachi chicken Masala</h1>
+                    <p>Quantity: 500g</p>
+                    <h5 class="span">Price: Rs.20 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+            <div class="lstview">
+                <img src="images/tatasalt.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Tata salt</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.30 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+            <div class="lstview">
+                <img src="images/madhursugar.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Madhur sugar</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.55 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+        </div>
+        <div id="content2" class="content">
+            <h1>Vegetables</h1>
+            <div class="lstview">
+                <img src="images/potato.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Potato</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.60 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+            <div class="lstview">
+                <img src="images/Carrot.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Carrot</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.30 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+            <div class="lstview">
+                <img src="images/tomato.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Tomato</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.40 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+            <div class="lstview">
+                <img src="images/beetroot.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Beetroot</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.150 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+        </div>
+        <div id="content3" class="content">
+            <h1>Fruits</h1>
+            <div class="lstview">
+                <img src="images/apple.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Apple</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.80 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+            <div class="lstview">
+                <img src="images/orange.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Orange</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.60 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+            <div class="lstview">
+                <img src="images/watermelon.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>Watermelon</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.100 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+            <div class="lstview">
+                <img src="images/bannana.jpg" alt="apple">
+                <div class="descrp">
+                    <h1>bannana</h1>
+                    <p>Quantity: 1kg</p>
+                    <h5 class="span">Price: Rs.40 /-</h5>
+                </div>
+                <button class="add-crt">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

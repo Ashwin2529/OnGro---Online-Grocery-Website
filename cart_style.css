@@ -1,0 +1,122 @@
+.products-contnr{
+    max-width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.product-hdr{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.product-hr{
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    border: solid 2px ;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+.prdct-ttl{
+    width: 45%;
+    display: flex;
+    padding: 20px;
+    background: rgb(231, 39, 39);
+    margin-left: 30px;
+    color: white;
+}
+.prdct-ttl1{
+    width: 50%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.prdct-ttl1 span{
+    margin-left: 20px;
+}
+
+.price{
+    width: 15%;
+    align-items: center;
+    display: flex;
+    background: rgb(231, 39, 39);
+    color: white;
+}
+
+.price1{
+    width: 15%;
+    align-items: center;
+    display: flex;
+}
+
+.count-prdct{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    background: rgb(231, 39, 39);
+    color: white;
+}
+
+.count-prdct1{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.totalofprdct{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    background: rgb(231, 39, 39);
+    color: white;
+    margin-right: 80px;
+}
+
+.totalofprdct1{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.productslst{
+    width: 90%;
+    padding: 10px 0;
+}
+
+
+.basketttlcontnr{
+    display: flex;
+    justify-content: flex-end;
+    width: 96%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background: rgb(231, 39, 39);
+    margin-left: -20px;
+}
+
+.basket_ttltitle{
+    width: 15%;
+    color: white;
+}
+
+.baskettotal{
+    width: 20%;
+    color: white;
+}
+.noitem{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(231, 39, 39);
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+}
